@@ -1,0 +1,145 @@
+body {
+ 
+ background-color: #f0f0f0;
+}
+
+#img1{
+  text-align: center;
+  background-color:#e4e4e4;
+}
+#img2{
+  text-align: center;
+}
+.navbar-menu{
+  text-align: center;
+  font-size: 40px;
+  font-family:"Georgia" ;
+}
+.fday{
+  text-align: center;
+  font-family:"Georgia" ;
+
+}
+#f1{
+  font-size: 35px;
+}
+#img3{
+height:500px;
+width:1000px;
+text-align: center;
+}
+#Train1{
+  font-size: 30px;
+  text-align: center;
+  color: rgb(135, 55, 123);
+  
+
+}
+#img5{
+  height: 1000px;
+  width: 1000px;
+}
+#Train2{
+bottom:50px;
+}
+.container {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(51, 72, 102, 0.8);
+  z-index: -1;
+}
+
+.container {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://cdn0-production-images-kly.akamaized.net/5rE9cWMi3rN2drf-fA6qvaLZ85I=/0x0:0x0/0x0/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/1843275/original/060566700_1516769422-Kanal-Amsterdam.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 432px;
+  height: 496px;
+  max-height: 80%;
+  max-width: 80%;
+  background: #E8ECF0;
+  box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+}
+
+.check-in-out,
+.other {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 100%;
+  box-shadow: 4px 10px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  border: none;
+  padding: 20px;
+  outline: none;
+  font-size: 21px;
+}
+
+label {
+  font-size: 17px;
+  align-items: center;
+  padding: 5px 0;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.properties {
+  background-color: #FF455B;
+  max-width: 60%;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 22px;
+}
+#imp{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:25px;
+  color:#FF455B;
+}
+#but1{
+  width:500px;
+  height:50px;
+}
